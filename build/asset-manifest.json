@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PMAL-Kimiclaw-Dashboard/static/css/main.923b1d8b.css",
-    "main.js": "/PMAL-Kimiclaw-Dashboard/static/js/main.c86d6591.js",
+    "main.css": "/PMAL-Kimiclaw-Dashboard/static/css/main.870954bc.css",
+    "main.js": "/PMAL-Kimiclaw-Dashboard/static/js/main.0f99589c.js",
     "index.html": "/PMAL-Kimiclaw-Dashboard/index.html",
-    "main.923b1d8b.css.map": "/PMAL-Kimiclaw-Dashboard/static/css/main.923b1d8b.css.map",
-    "main.c86d6591.js.map": "/PMAL-Kimiclaw-Dashboard/static/js/main.c86d6591.js.map"
+    "main.870954bc.css.map": "/PMAL-Kimiclaw-Dashboard/static/css/main.870954bc.css.map",
+    "main.0f99589c.js.map": "/PMAL-Kimiclaw-Dashboard/static/js/main.0f99589c.js.map"
   },
   "entrypoints": [
-    "static/css/main.923b1d8b.css",
-    "static/js/main.c86d6591.js"
+    "static/css/main.870954bc.css",
+    "static/js/main.0f99589c.js"
   ]
 }
