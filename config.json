@@ -1,0 +1,25 @@
+{
+  "name": "PMAL Competitor Tracker",
+  "version": "1.0.0",
+  "description": "Daily competitive intelligence for PickMeALoan",
+  "competitors": [
+    {"name": "Lendela", "type": "aggregator", "url": "https://lendela.sg"},
+    {"name": "Lending Bee", "type": "direct_lender", "url": "https://www.lendingbee.com.sg"},
+    {"name": "Crawfort", "type": "direct_lender", "url": "https://www.crawfort.com"},
+    {"name": "Credit 21", "type": "direct_lender", "url": "https://www.credit21.com.sg"},
+    {"name": "Money Kinetics", "type": "aggregator", "url": "https://moneykinetics.sg"},
+    {"name": "Roshi", "type": "aggregator", "url": "https://roshi.sg"},
+    {"name": "Lendingpot", "type": "aggregator", "url": "https://lendingpot.sg"},
+    {"name": "Lending Circle", "type": "aggregator", "url": "https://lendingcircle.com.sg"}
+  ],
+  "fb_ad_library_urls": {
+    "lendela": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendela",
+    "lending_bee": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lending%20bee",
+    "crawfort": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=crawfort",
+    "credit21": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=credit%2021",
+    "money_kinetics": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=money%20kinetics",
+    "roshi": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=roshi",
+    "lendingpot": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendingpot",
+    "lending_circle": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lending%20circle"
+  }
+}
