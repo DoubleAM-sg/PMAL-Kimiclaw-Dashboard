@@ -1,0 +1,98 @@
+{
+  "lastUpdated": "2026-02-24T08:05:00+08:00",
+  "verifiedBy": "Kimi Claw - Daily Briefing",
+  "todayChanges": [
+    {
+      "id": 1,
+      "competitor": "Lendela",
+      "change": "CNY campaign: 'Your 2025, Loan Matched & Wrapped'",
+      "type": "ads",
+      "source": "Facebook Ad Library - verified active",
+      "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendela",
+      "linkText": "View FB Ads",
+      "verifiedAt": "2026-02-24T08:00:00+08:00"
+    },
+    {
+      "id": 2,
+      "competitor": "Crawfort",
+      "change": "Blog post: 'Does 1-Hour Loan Approval Exist?' (Feb 17)",
+      "type": "content",
+      "source": "crawfort.com blog - verified published",
+      "link": "https://www.crawfort.com/blog",
+      "linkText": "Read Blog",
+      "verifiedAt": "2026-02-24T08:00:00+08:00"
+    },
+    {
+      "id": 3,
+      "competitor": "Lending Bee",
+      "change": "Blog post: 'Loan Scams Singapore 2026: 10 Red Flags' (Feb 9)",
+      "type": "content",
+      "source": "lendingbee.com.sg blog - verified published",
+      "link": "https://www.lendingbee.com.sg/blog",
+      "linkText": "Read Blog",
+      "verifiedAt": "2026-02-24T08:00:00+08:00"
+    }
+  ],
+  "suggestedActions": [
+    {
+      "id": 1,
+      "text": "Review Lendela CNY campaign creative before it ends",
+      "priority": "high",
+      "context": "Seasonal campaign - time sensitive"
+    },
+    {
+      "id": 2,
+      "text": "Read Crawfort's '1-hour approval' blog post",
+      "priority": "medium",
+      "context": "They're positioning against speed claims"
+    },
+    {
+      "id": 3,
+      "text": "Check Lending Bee's scam guide for content ideas",
+      "priority": "low",
+      "context": "Trust-building content opportunity"
+    }
+  ],
+  "weekActivity": [
+    { "day": "Mon", "competitor": "Crawfort", "change": "blog published" },
+    { "day": "Sun", "competitor": "Lendela", "change": "CNY campaign live" },
+    { "day": "Fri", "competitor": "Lending Bee", "change": "scam guide published" }
+  ],
+  "competitors": {
+    "aggregators": [
+      { "id": "lendela", "name": "Lendela", "url": "https://lendela.sg", "fbPage": "LendelaSingapore", "hasAds": true },
+      { "id": "lendingpot", "name": "Lendingpot", "url": "https://lendingpot.sg", "fbPage": null, "hasAds": false },
+      { "id": "roshi", "name": "Roshi", "url": "https://roshi.sg", "fbPage": "roshi.sg", "hasAds": false },
+      { "id": "moneykinetics", "name": "Money Kinetics", "url": "https://moneykinetics.sg", "fbPage": null, "hasAds": false },
+      { "id": "lendify", "name": "Lendify", "url": "https://lendify.sg", "fbPage": null, "hasAds": false },
+      { "id": "lendingcircle", "name": "Lending Circle", "url": "https://lendingcircle.com.sg", "fbPage": null, "hasAds": false },
+      { "id": "sgcredits", "name": "SG Credits", "url": "https://sg-credits.com", "fbPage": null, "hasAds": false }
+    ],
+    "brokers": [
+      { "id": "loanova", "name": "Loanova", "url": "https://loanova.com.sg", "fbPage": "LoanovaAsia", "hasAds": true }
+    ],
+    "lenders": [
+      { "id": "crawfort", "name": "Crawfort", "url": "https://www.crawfort.com", "claim": "8-minute approval" },
+      { "id": "lendingbee", "name": "Lending Bee", "url": "https://www.lendingbee.com.sg", "claim": "1-hour approval" },
+      { "id": "accredit", "name": "Accredit", "url": "https://www.accreditloan.com", "claim": "24h approval" },
+      { "id": "credit21", "name": "Credit 21", "url": "https://www.credit21.com.sg", "claim": null },
+      { "id": "credit33", "name": "Credit Thirty3", "url": "https://www.creditthirty3.com.sg", "claim": "25-minute approval" },
+      { "id": "creditmaster", "name": "Credit Master", "url": "https://www.creditmaster.sg", "claim": null },
+      { "id": "gscredit", "name": "GS Credit", "url": "https://www.gscredit.com.sg", "claim": null },
+      { "id": "ucredit", "name": "U Credit", "url": "https://www.ucredit.sg", "claim": null },
+      { "id": "horison", "name": "Horison Credit", "url": "https://www.horisonmoneylender.com.sg", "claim": null },
+      { "id": "katong", "name": "Katong Credit", "url": "https://www.katongcredit.com.sg", "claim": "8-minute approval" },
+      { "id": "bst", "name": "BST Credit", "url": "https://www.bstcredit.com.sg", "claim": null },
+      { "id": "creditmatters", "name": "Credit Matters", "url": "https://www.creditmatters.com.sg", "claim": "1-hour reply" },
+      { "id": "1apcapital", "name": "1AP Capital", "url": "https://www.1apcapital.com.sg", "claim": null }
+    ]
+  },
+  "speedClaims": [
+    { "competitor": "Crawfort", "claim": "8 minutes", "threat": "critical" },
+    { "competitor": "Katong Credit", "claim": "8 minutes", "threat": "critical" },
+    { "competitor": "Credit Thirty3", "claim": "25 minutes", "threat": "high" },
+    { "competitor": "Lending Circle", "claim": "30 minutes", "threat": "high" },
+    { "competitor": "Lending Bee", "claim": "1 hour", "threat": "medium" },
+    { "competitor": "Credit Matters", "claim": "1 hour", "threat": "medium" }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "competitor": "Lendela",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendela",
+    "adsFound": 0,
+    "ads": []
+  },
+  {
+    "competitor": "Lendingpot",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendingpot",
+    "adsFound": 0,
+    "ads": []
+  },
+  {
+    "competitor": "Roshi",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=roshi",
+    "adsFound": 0,
+    "ads": []
+  },
+  {
+    "competitor": "Money Kinetics",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=money%20kinetics",
+    "adsFound": 0,
+    "ads": []
+  },
+  {
+    "competitor": "Lendify",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendify",
+    "adsFound": 0,
+    "error": "page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendify\", waiting until \"networkidle\"\n"
+  },
+  {
+    "competitor": "Lending Circle",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lending%20circle",
+    "adsFound": 0,
+    "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+    "competitor": "SG Credits",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=sg%20credits",
+    "adsFound": 0,
+    "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+    "competitor": "Loanova",
+    "searchUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=loanova",
+    "adsFound": 0,
+    "error": "browser.newContext: Target page, context or browser has been closed"
+  }
+]

@@ -5,9 +5,23 @@ import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('overview');
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
+    // Load data from JSON file
+    fetch('/PMAL-Kimiclaw-Dashboard/data/intel.json')
+      .then(res => res.json())
+      .then(data => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to load data:', err);
+        setLoading(false);
+      });
+
     const timer = setInterval(() => setCurrentTime(new Date()), 60000);
     return () => clearInterval(timer);
   }, []);
@@ -21,6 +35,14 @@ function App() {
       minute: '2-digit'
     });
   };
+
+  if (loading) {
+    return (
+      <div className="app">
+        <div className="loading">Loading dashboard...⏳</div>
+      </div>
+    );
+  }
 
   return (
     <div className="app">
@@ -47,12 +69,12 @@ function App() {
       </header>
 
       <main className="main">
-        {currentPage === 'overview' && <Overview />}
-        {currentPage === 'competitors' && <Competitors />}
+        {data && currentPage === 'overview' && <Overview data={data} />}
+        {data && currentPage === 'competitors' && <Competitors data={data.competitors} />}
       </main>
 
       <footer className="footer">
-        <p>Click ✅ Done on actions to send update to Telegram</p>
+        <p>Data verified: {data?.lastUpdated ? new Date(data.lastUpdated).toLocaleString('en-SG') : 'Unknown'} · Click ✅ Done to send update to Telegram</p>
       </footer>
     </div>
   );

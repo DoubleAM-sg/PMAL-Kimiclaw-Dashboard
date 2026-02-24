@@ -3,22 +3,9 @@ import React, { useState } from 'react';
 function Overview({ data }) {
   const [completedActions, setCompletedActions] = useState([]);
 
-  const todayChanges = data?.todayChanges || [
-    { id: 1, competitor: 'Crawfort', change: 'New homepage claim: "5 min approval"', link: 'https://www.crawfort.com', linkText: 'View Site' },
-    { id: 2, competitor: 'Lendela', change: 'CNY campaign launched on Facebook', link: 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=SG&q=lendela', linkText: 'View FB Ads' },
-    { id: 3, competitor: 'Lending Bee', change: 'Blog: "10 Loan Scam Red Flags"', link: 'https://www.lendingbee.com.sg/blog', linkText: 'Read Blog' },
-  ];
-
-  const suggestedActions = data?.suggestedActions || [
-    { id: 1, text: 'Review Crawfort speed claim vs your "instant" positioning', priority: 'high' },
-    { id: 2, text: 'Plan response to Lendela CNY promo before campaign ends', priority: 'medium' },
-  ];
-
-  const weekActivity = data?.weekActivity || [
-    { day: 'Mon', competitor: 'Crawfort', change: 'site update' },
-    { day: 'Sun', competitor: 'Lendela', change: 'ads' },
-    { day: 'Fri', competitor: 'Lending Bee', change: 'blog' },
-  ];
+  const todayChanges = data?.todayChanges || [];
+  const suggestedActions = data?.suggestedActions || [];
+  const weekActivity = data?.weekActivity || [];
 
   const generateTelegramLink = (actionId, actionText) => {
     const message = `/done action-${actionId}: ${actionText}`;
@@ -29,36 +16,61 @@ function Overview({ data }) {
     setCompletedActions([...completedActions, actionId]);
   };
 
+  const getTypeIcon = (type) => {
+    switch (type) {
+      case 'ads': return '📢';
+      case 'content': return '📝';
+      case 'messaging': return '💬';
+      default: return '🔄';
+    }
+  };
+
   return (
     <div className="overview">
       <div className="briefing-header">
         <h2>Today's Briefing</h2>
-        <span className="briefing-date">{new Date().toLocaleDateString('en-SG', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+        <span className="briefing-date">
+          {data?.lastUpdated ? new Date(data.lastUpdated).toLocaleDateString('en-SG', { 
+            month: 'short', day: 'numeric', year: 'numeric' 
+          }) : 'Unknown date'}
+        </span>
       </div>
 
-      <div className="changes-section">
-        <h3>{todayChanges.length} Changes Detected</h3>
-        
-        <div className="changes-list">
-          {todayChanges.map((change, idx) => (
-            <div key={change.id} className="change-item">
-              <div className="change-number">{idx + 1}</div>
-              <div className="change-content">
-                <div className="change-competitor">{change.competitor}</div>
-                <div className="change-desc">{change.change}</div>
-                <a 
-                  href={change.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="change-link"
-                >
-                  {change.linkText} →
-                </a>
+      {todayChanges.length > 0 ? (
+        <div className="changes-section">
+          <h3>{todayChanges.length} Changes Detected</h3>
+          
+          <div className="changes-list">
+            {todayChanges.map((change, idx) => (
+              <div key={change.id} className="change-item">
+                <div className="change-number">{idx + 1}</div>
+                <div className="change-content">
+                  <div className="change-header-row">
+                    <span className="change-icon">{getTypeIcon(change.type)}</span>
+                    <span className="change-competitor">{change.competitor}</span>
+                    <span className="verified-badge">✓ Verified</span>
+                  </div>
+                  <div className="change-desc">{change.change}</div>
+                  <div className="change-source">Source: {change.source}</div>
+                  <a 
+                    href={change.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="change-link"
+                  >
+                    {change.linkText} →
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className="changes-section">
+          <h3>No Changes Today</h3>
+          <p className="no-data">No competitor activity detected in the last 24 hours.</p>
+        </div>
+      )}
 
       {suggestedActions.length > 0 && (
         <div className="actions-section">
@@ -75,6 +87,9 @@ function Overview({ data }) {
                   </div>
                   <div className="action-content">
                     <div className="action-text">{action.text}</div>
+                    {action.context && (
+                      <div className="action-context">{action.context}</div>
+                    )}
                     {!isDone && (
                       <div className="action-buttons">
                         <a 
@@ -99,21 +114,28 @@ function Overview({ data }) {
         </div>
       )}
 
-      <div className="week-section">
-        <h3>This Week's Activity</h3>
-        
-        <div className="week-list">
-          {weekActivity.map((item, idx) => (
-            <div key={idx} className="week-item">
-              <span className="week-day">{item.day}</span>
-              <span className="week-competitor">{item.competitor}</span>
-              <span className="week-change">{item.change}</span>
-            </div>
-          ))}
+      {weekActivity.length > 0 && (
+        <div className="week-section">
+          <h3>This Week's Activity</h3>
+          
+          <div className="week-list">
+            {weekActivity.map((item, idx) => (
+              <div key={idx} className="week-item">
+                <span className="week-day">{item.day}</span>
+                <span className="week-competitor">{item.competitor}</span>
+                <span className="week-change">{item.change}</span>
+              </div>
+            ))}
+          </div>
+          
+          <button 
+            className="view-all-link"
+            onClick={() => document.querySelector('.nav button:last-child')?.click()}
+          >
+            View All Competitors →
+          </button>
         </div>
-        
-        <a href="#competitors" className="view-all-link">View All Competitors →</a>
-      </div>
+      )}
     </div>
   );
 }
