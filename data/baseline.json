@@ -1,0 +1,167 @@
+{
+  "lastUpdated": "2026-02-25T08:00:00+08:00",
+  "competitors": {
+    "aggregators": {
+      "lendela": {
+        "ads": ["Stop crying, get real loan options. It only takes a 2-minute application"],
+        "fbPage": "LendelaSingapore",
+        "hasWebsite": true
+      },
+      "moneykinetics": {
+        "ads": [
+          "No time to compare? Apply in 2 minutes",
+          "Align your loan with your payday",
+          "Apply for Loans Up to $80,000 Easily"
+        ],
+        "fbPage": "moneykineticssg",
+        "hasWebsite": true
+      },
+      "roshi": {
+        "ads": [],
+        "fbPage": "roshi.sg",
+        "hasWebsite": true
+      },
+      "credible": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": true
+      },
+      "lendingpot": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": true
+      }
+    },
+    "brokers": {
+      "loanova": {
+        "ads": [],
+        "fbPage": "LoanovaAsia",
+        "hasWebsite": true
+      },
+      "whitefunding": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": false
+      },
+      "flexifundssg": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": false
+      },
+      "debtox": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": true
+      },
+      "lendify": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": true
+      },
+      "loanlink": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": false
+      },
+      "sgloanpages": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": true
+      },
+      "lendingcircle": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": true
+      },
+      "lendvisor": {
+        "ads": [],
+        "fbPage": null,
+        "hasWebsite": false
+      }
+    }
+  },
+  "ads": {
+    "lendela": ["Stop crying, get real loan options. It only takes a 2-minute application to get multiple loan offers matched to you"],
+    "moneykinetics": [
+      "No time to compare personal loans? Let Money Kinetics do the work for you. Apply for a personal loan in just 2 minutes",
+      "Align your loan with your payday. Compare loan options that offer scheduled instalments aligned with your salary cycle",
+      "Apply for Loans Up to $80,000 Easily. Looking for extra funds?"
+    ],
+    "roshi": [],
+    "loanova": []
+  },
+  "blogPosts": [
+    {
+      "url": "https://sg.lendela.com/blog/loan-scams-in-singapore-2026-red-flags-prevention-tips-and-how-to-borrow-safely",
+      "title": "Loan Scams Singapore 2026: Red Flags, Prevention Tips",
+      "date": "2026-02-25",
+      "competitor": "Lendela",
+      "type": "aggregator"
+    },
+    {
+      "url": "https://sg.lendela.com/blog/best-personal-loan-promotions-in-singapore",
+      "title": "Best Personal Loan Promotions in Singapore (Sept 2025)",
+      "date": "2026-02-25",
+      "competitor": "Lendela",
+      "type": "aggregator"
+    },
+    {
+      "url": "https://www.lendingbee.com.sg/money-lender-interest-rates/",
+      "title": "What Interest Rates Can A Money Lender Charge?",
+      "date": "2026-02-12",
+      "competitor": "Lending Bee",
+      "type": "lender"
+    },
+    {
+      "url": "https://crawfort.com/sg/best-personal-loan-singapore/",
+      "title": "Best Personal Loan in Singapore 2025",
+      "date": "2026-02-25",
+      "competitor": "Crawfort",
+      "type": "lender"
+    }
+  ],
+  "news": [
+    {
+      "url": "https://www.theasianbanker.com/mediafeed-news/details?rkey=20250902AE63048",
+      "title": "Loan Rates Hit 5-Year Low: Is Now the Right Time to Borrow?",
+      "source": "The Asian Banker",
+      "date": "2026-02-25"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/singapore-alternative-lending-business-market-114400903.html",
+      "title": "Singapore Alternative Lending Business Market Report 2026",
+      "source": "Yahoo Finance",
+      "date": "2026-02-25"
+    },
+    {
+      "url": "https://www.adb.org/sites/default/files/publication/1073276/nonperforming-loans-watch-asia-2025.pdf",
+      "title": "Nonperforming Loans Watch in Asia 2025",
+      "source": "ADB",
+      "date": "2026-02-25"
+    }
+  ],
+  "social": [
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1681fll/is_lendela_legit/",
+      "platform": "reddit",
+      "topic": "Is Lendela legit?",
+      "date": "2026-02-25",
+      "competitor": "Lendela"
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1ljx4zl/got_a_call_from_lendela_but_idk_how_they_got_my/",
+      "platform": "reddit",
+      "topic": "Privacy concern: Suspicious calls claiming to be from Lendela",
+      "date": "2026-02-25",
+      "competitor": "Lendela"
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporefi/comments/1nso4fi/personal_loan_help/",
+      "platform": "reddit",
+      "topic": "Personal loan advice thread - Lendela recommended",
+      "date": "2026-02-25",
+      "competitor": "Lendela"
+    }
+  ],
+  "rates": "Licensed moneylender avg: 3.98% per month. Bank promotions: UOB 1.00% p.a., Standard Chartered 1.08% p.a. (ends 28 Feb 2026). Singapore NPL ratio: 1.3%"
+}
