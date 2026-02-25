@@ -233,14 +233,14 @@
     ],
     "brokers": [
       { "id": "loanova", "name": "Loanova", "url": "https://loanova.com.sg", "fbPage": "LoanovaAsia", "hasAds": true, "notes": null },
-      { "id": "whitefunding", "name": "White Funding", "url": null, "fbPage": null, "hasAds": false, "notes": "No website found" },
-      { "id": "flexifunds", "name": "FlexiFunds SG", "url": null, "fbPage": null, "hasAds": false, "notes": "No website found" },
+      { "id": "flexifunds", "name": "FlexiFunds SG", "url": null, "fbPage": "FlexiFundsSG", "hasAds": true, "notes": "No website, but has Facebook page with 241 likes" },
+      { "id": "lendvisor", "name": "Lendvisor Singapore", "url": null, "fbPage": "lendvisorsingapore", "hasAds": true, "notes": "No website, but active Facebook video ads" },
       { "id": "debtox", "name": "Debtox.sg", "url": "https://debtox.sg", "fbPage": null, "hasAds": false, "notes": "Debt solutions focus" },
       { "id": "lendify", "name": "Lendify", "url": "https://lendify.sg", "fbPage": null, "hasAds": false, "notes": null },
-      { "id": "loanlink", "name": "LoanLink Singapore", "url": null, "fbPage": null, "hasAds": false, "notes": "No website found" },
       { "id": "sgloanpages", "name": "SGLoanPages.com", "url": "https://sgloanpages.com", "fbPage": null, "hasAds": false, "notes": null },
       { "id": "lendingcircle", "name": "Lending Circle", "url": "https://lendingcircle.com.sg", "fbPage": null, "hasAds": false, "notes": "Reverse auction, 1% per month claim" },
-      { "id": "lendvisor", "name": "Lendvisor Singapore", "url": null, "fbPage": null, "hasAds": false, "notes": "No website found" }
+      { "id": "whitefunding", "name": "White Funding", "url": null, "fbPage": null, "hasAds": false, "notes": "No website or social presence found" },
+      { "id": "loanlink", "name": "LoanLink Singapore", "url": null, "fbPage": null, "hasAds": false, "notes": "No website or social presence found" }
     ],
     "lenders": [
       { "id": "accredit", "name": "Accredit", "url": "https://www.accreditloan.com", "altUrls": ["https://hougangaccreditloan.com", "https://yishunaccreditloan.com"], "claim": "24h approval" },
