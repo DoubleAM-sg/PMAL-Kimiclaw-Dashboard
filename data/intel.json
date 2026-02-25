@@ -1,131 +1,87 @@
 {
-  "date": "2026-02-25",
-  "type": "Afternoon Update",
-  "generatedAt": "2026-02-25T11:50:00+08:00",
-  "lastUpdated": "2026-02-25T11:50:00+08:00",
+  "date": "2026-02-26",
+  "type": "Daily Competitor Check - AGGREGATORS + BROKERS",
+  "generatedAt": "2026-02-26T02:35:00+08:00",
+  "lastUpdated": "2026-02-26T02:35:00+08:00",
   "verifiedBy": "Kimi Claw - Daily Briefing",
-  "dataSource": "Ministry of Law Registry via creditreview.sg",
+  "dataSource": "Website checks, News search, Social monitoring",
   "stats": {
-    "totalLicensedLenders": 156,
-    "withWebsites": 121,
-    "withoutWebsites": 35,
+    "totalChecked": 14,
     "aggregators": 5,
-    "brokers": 9
+    "brokers": 9,
+    "checksFailed": 1,
+    "changesDetected": 0
   },
-  "todayChanges": [
-    {
-      "type": "NEWS",
-      "subtype": "Bank Earnings",
-      "severity": "MEDIUM",
-      "competitor": "Market-wide",
-      "title": "UOB Q4 Profit Falls 7% on Year",
-      "description": "UOB reported 7% decline in Q4 net profit to SGD 1.41 billion as shrinking margins offset loan growth. Net fee income rose 7% to record S$2.6 billion.",
-      "link": "https://www.reuters.com/world/asia-pacific/singapore-bank-uobs-fourth-quarter-net-profit-falls-7-on-year-2026-02-23/",
-      "linkText": "Read News",
-      "date": "2026-02-24"
-    },
-    {
-      "type": "NEWS",
-      "subtype": "Bank Earnings",
-      "severity": "MEDIUM",
-      "competitor": "Market-wide",
-      "title": "UOB Full Year Profit Down 23% to $3.69b",
-      "description": "UOB's full year 2025 net profit fell 23% as allowances doubled. Singapore and Greater China saw highest increase in loan allowances.",
-      "link": "https://asianbankingandfinance.net/retail-banking/news/uobs-net-profit-falls-23-369b-in-2025-allowances-double",
-      "linkText": "Read News",
-      "date": "2026-02-24"
-    },
-    {
-      "type": "NEWS",
-      "subtype": "Legal/Enforcement",
-      "severity": "MEDIUM",
-      "competitor": "Market-wide",
-      "title": "Money Mule Jailed for Handling S$450,000",
-      "description": "Money mule who handled about S$450,000 including scam victims' money sentenced to jail. Case involved loan shark debt that ballooned.",
-      "link": "https://www.channelnewsasia.com/singapore/money-mule-450000-scam-victims-jail-5948891",
-      "linkText": "Read News",
-      "date": "2026-02-24"
-    }
-  ],
+  "todayChanges": [],
   "suggestedActions": [
     {
-      "priority": "MED",
-      "action": "Monitor UOB's increased loan allowances for market signals",
-      "context": "UOB doubling loan allowances suggests caution in lending market. May affect approval rates for borrowers.",
-      "relatedChange": 1
+      "priority": "LOW",
+      "action": "No competitor changes detected today",
+      "context": "All 14 competitors checked. No new ads, content, or significant news detected. Market remains stable.",
+      "relatedChange": null
     },
     {
       "priority": "LOW",
-      "action": "Continue monitoring for new competitor campaigns",
-      "context": "No significant ad changes detected today. Facebook Ads Library unavailable for verification.",
+      "action": "Monitor Debtox partnership with The Silver Lining",
+      "context": "Debtox announced collaboration for ethical debt resolution. May indicate shift toward debt consolidation services.",
       "relatedChange": null
     }
   ],
   "ratesIntel": {
-    "lastUpdated": "2026-02-25",
+    "lastUpdated": "2026-02-26",
     "moneylenderAvgRate": "3.98% per month",
-    "bankPromotions": "UOB 1.00% p.a., Standard Chartered 1.08% p.a. (ends 28 Feb 2026)",
-    "notableChanges": "Bank rates remain at 5-year lows. Singapore NPL ratio stable at 1.3%."
+    "bankPromotions": "UOB 1.00% p.a., Standard Chartered 1.08% p.a. (ends 28 Feb 2026 - 2 days remaining)",
+    "notableChanges": "Standard Chartered promotion ending soon (28 Feb). Monitor for new bank rate promotions."
   },
   "adsIntel": {
     "facebook": {
-      "lendela": "Active - 'Stop crying' humorous campaign, 2-minute application focus",
-      "moneyKinetics": "Active - Multiple video ads, payday alignment, $80K loans"
+      "lendela": "Status unknown - Facebook Ads Library check failed",
+      "moneyKinetics": "Status unknown - Facebook Ads Library check failed",
+      "roshi": "Status unknown - Facebook Ads Library check failed",
+      "loanova": "Status unknown - Facebook Ads Library check failed",
+      "flexifundssg": "Status unknown - Facebook Ads Library check failed",
+      "lendvisor": "Status unknown - Facebook Ads Library check failed"
     },
     "newCreatives": [],
     "pausedAds": [],
-    "notes": "Facebook Ads Library unavailable for verification. Status based on search results."
+    "notes": "Facebook Ads Library check failed due to browser service unavailable. Will retry tomorrow. Baseline ads data preserved from previous check."
   },
   "sentiment": {
     "overall": "Neutral",
     "keyThemes": [
-      "Bank earnings show cautious lending environment",
       "No new competitor campaigns detected",
-      "Existing content remains active"
+      "Debtox partnership signals potential market shift to debt consolidation",
+      "Roshi Vietnam expansion continues (Jan 2025 news)",
+      "Standard Chartered bank promotion ending in 2 days"
     ]
   },
   "competitors": {
     "aggregators": [
-      { "id": "lendela", "name": "Lendela", "url": "https://lendela.sg", "fbPage": "LendelaSingapore", "adLibraryQuery": "Lendela", "hasAds": true, "adCount": 42, "notes": "42 active ads, 'Stop crying' campaign" },
-      { "id": "roshi", "name": "Roshi", "url": "https://roshi.sg", "fbPage": "roshi.sg", "adLibraryQuery": "Roshi", "hasAds": false, "notes": "Reviews PMAL partners" },
-      { "id": "moneykinetics", "name": "Money Kinetics", "url": "https://moneykinetics.sg", "fbPage": null, "adLibraryQuery": "Money%20Kinetics", "hasAds": true, "adCount": 77, "notes": "77 active ads, payday alignment focus" },
-      { "id": "credible", "name": "Credible.sg", "url": "https://credible.com.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": null },
-      { "id": "lendingpot", "name": "Lendingpot", "url": "https://lendingpot.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "SME marketplace, IFS Capital" }
+      { "id": "lendela", "name": "Lendela", "url": "https://sg.lendela.com", "fbPage": "LendelaSingapore", "adLibraryQuery": "Lendela", "hasAds": true, "adCount": null, "notes": "Website active. Facebook check failed." },
+      { "id": "roshi", "name": "Roshi", "url": "https://roshi.sg", "fbPage": "roshi.sg", "adLibraryQuery": "Roshi", "hasAds": false, "adCount": null, "notes": "Website active. Vietnam expansion news (Jan 2025). Facebook check failed." },
+      { "id": "moneykinetics", "name": "Money Kinetics", "url": "https://moneykinetics.sg", "fbPage": null, "adLibraryQuery": "Money%20Kinetics", "hasAds": true, "adCount": null, "notes": "Website active. Facebook check failed." },
+      { "id": "credible", "name": "Credible.sg", "url": "https://credible.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. No Facebook presence." },
+      { "id": "lendingpot", "name": "Lendingpot", "url": "https://lendingpot.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. SME marketplace. IFS Capital subsidiary." }
     ],
     "brokers": [
-      { "id": "loanova", "name": "Loanova", "url": "https://loanova.com.sg", "fbPage": "LoanovaAsia", "adLibraryQuery": "Loanova", "hasAds": true, "adCount": 34, "notes": "Active Facebook ads - 34 campaigns" },
-      { "id": "flexifunds", "name": "FlexiFunds SG", "url": null, "fbPage": "FlexiFundsSG", "adLibraryQuery": "FlexiFunds", "hasAds": true, "adCount": 52, "notes": "No website, but 52 active Facebook ads" },
-      { "id": "lendvisor", "name": "Lendvisor Singapore", "url": null, "fbPage": "lendvisorsingapore", "adLibraryQuery": "Lendvisor", "hasAds": true, "adCount": 25, "notes": "No website, but 25 active Facebook ads" },
-      { "id": "debtox", "name": "Debtox.sg", "url": "https://debtox.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Debt solutions focus" },
-      { "id": "lendify", "name": "Lendify", "url": "https://lendify.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": null },
-      { "id": "sgloanpages", "name": "SGLoanPages.com", "url": "https://sgloanpages.com", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": null },
-      { "id": "lendingcircle", "name": "Lending Circle", "url": "https://lendingcircle.com.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Reverse auction, 1% per month claim" },
-      { "id": "whitefunding", "name": "White Funding", "url": null, "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "No website or Facebook ads found" },
-      { "id": "loanlink", "name": "LoanLink Singapore", "url": null, "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "No website or Facebook ads found" }
-    ],
-    "lenders": [
-      { "id": "accredit", "name": "Accredit", "url": "https://www.accreditloan.com", "altUrls": ["https://hougangaccreditloan.com", "https://yishunaccreditloan.com"], "claim": "24h approval" },
-      { "id": "bestcreditsg", "name": "Best Credit SG", "url": "https://bestcredit.sg", "altUrls": [], "claim": null },
-      { "id": "hscredit", "name": "HS Credit", "url": "https://hscredit.sg", "altUrls": [], "claim": null },
-      { "id": "quickcredit", "name": "Quick Credit", "url": "https://www.quickcredit.com.sg", "altUrls": [], "claim": null },
-      { "id": "quickloan", "name": "Quickloan", "url": "https://quickloan.com.sg", "altUrls": [], "claim": null },
-      { "id": "kbbcredit", "name": "KBB Credit", "url": "https://kbbcredit.sg", "altUrls": [], "claim": null },
-      { "id": "1stcreditsg", "name": "1st Credit SG", "url": "https://www.1stcreditsg.com.sg", "altUrls": [], "claim": null },
-      { "id": "1cash", "name": "1-Cash", "url": "https://1-cash.sg", "altUrls": [], "claim": null },
-      { "id": "credithub", "name": "Credit Hub", "url": "https://credithubcapital.sg", "altUrls": [], "claim": null },
-      { "id": "111credit", "name": "111 Credit", "url": "https://111credit.com", "altUrls": [], "claim": null },
-      { "id": "118credit", "name": "118 Credit", "url": "https://118credit.sg", "altUrls": ["https://qvcredit.sg", "https://instantcredit.sg"], "claim": null, "notes": "Formerly QV Credit" },
-      { "id": "1fullerton", "name": "1 Fullerton Credit", "url": "https://1fullertoncredit.com.sg", "altUrls": ["https://1fullertoncredit.sg", "https://1fullertoncredit.com"], "claim": null },
-      { "id": "101credit", "name": "101 Credit", "url": "http://chinatowncredit.com", "altUrls": [], "claim": null },
-      { "id": "1apcapital", "name": "1AP Capital", "url": "https://1apcapital.sg", "altUrls": ["https://apcredit.sg"], "claim": null },
-      { "id": "1stcapital", "name": "1st Capital", "url": "https://1stcapital.com.sg", "altUrls": [], "claim": null },
-      { "id": "365credit", "name": "365 Credit Solutions", "url": "https://www.365credit.com.sg", "altUrls": ["https://365credit.sg"], "claim": null },
-      { "id": "96bmcredit", "name": "96BM Credit", "url": "https://cashloansingapore.com.sg", "altUrls": [], "claim": null },
-      { "id": "a1credit", "name": "A1 Credit SG", "url": "https://www.a1credit.sg", "altUrls": ["https://www.a1credit.com.sg"], "claim": null },
-      { "id": "abicredit", "name": "ABI Credit", "url": "https://abicredit.sg", "altUrls": [], "claim": null },
-      { "id": "abmcreditz", "name": "ABM Creditz", "url": "https://www.abmcreditz.com.sg", "altUrls": [], "claim": null },
-      { "id": "crawfort", "name": "Crawfort", "url": "https://crawfort.com", "altUrls": [], "claim": "8-minute approval", "priority": "high" },
-      { "id": "lendingbee", "name": "Lending Bee", "url": "https://www.lendingbee.com.sg", "altUrls": [], "claim": "1-hour approval", "priority": "critical", "notes": "MinLaw Pilot Scheme, 8000+ reviews" }
+      { "id": "loanova", "name": "Loanova", "url": "https://loanova.sg", "fbPage": "LoanovaAsia", "adLibraryQuery": "Loanova", "hasAds": true, "adCount": null, "notes": "Website active. Facebook check failed." },
+      { "id": "flexifunds", "name": "FlexiFunds SG", "url": null, "fbPage": "FlexiFundsSG", "adLibraryQuery": "FlexiFunds", "hasAds": true, "adCount": null, "notes": "No website. Facebook check failed." },
+      { "id": "lendvisor", "name": "Lendvisor Singapore", "url": null, "fbPage": "lendvisorsingapore", "adLibraryQuery": "Lendvisor", "hasAds": true, "adCount": null, "notes": "No website. Facebook check failed." },
+      { "id": "debtox", "name": "Debtox.sg", "url": "https://debtox.sg", "fbPage": "debtox.sg", "adLibraryQuery": null, "hasAds": false, "notes": "Website active. New partnership with The Silver Lining (Aug 2025) for ethical debt resolution." },
+      { "id": "lendify", "name": "Lendify", "url": "https://lendify.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. No Facebook presence." },
+      { "id": "sgloanpages", "name": "SGLoanPages.com", "url": "https://sgloanpages.com", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. No Facebook presence." },
+      { "id": "lendingcircle", "name": "Lending Circle", "url": "https://lendingcircle.com.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. No Facebook presence." },
+      { "id": "whitefunding", "name": "White Funding", "url": null, "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "No website or Facebook presence found." },
+      { "id": "loanlink", "name": "LoanLink Singapore", "url": null, "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "No website or Facebook presence found." }
     ]
-  }
+  },
+  "checkFailures": [
+    {
+      "service": "Facebook Ads Library",
+      "competitorsAffected": ["Lendela", "Money Kinetics", "Roshi", "Loanova", "FlexiFunds SG", "Lendvisor Singapore"],
+      "reason": "Browser control service unavailable - OpenClaw gateway browser not responding",
+      "timestamp": "2026-02-26T02:00:00+08:00",
+      "impact": "Unable to verify current Facebook ad status for 6 competitors with FB presence"
+    }
+  ]
 }
