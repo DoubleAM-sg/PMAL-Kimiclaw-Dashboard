@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-02-25T15:35:00+08:00",
+  "generatedBy": "Kimi Claw",
+  
+  "projects": [
+    {
+      "id": "pmal-intelligence",
+      "name": "PMAL Competitor Intelligence Dashboard",
+      "description": "Competitor tracking system for PickMeALoan - monitors 135 competitors across aggregators, brokers, and licensed moneylenders in Singapore",
+      "url": "https://doubleam-sg.github.io/PMAL-Kimiclaw-Dashboard",
+      "repo": "https://github.com/doubleam-sg/PMAL-Kimiclaw-Dashboard",
+      "status": "Active",
+      "lastUpdated": "2026-02-25T12:20:00+08:00",
+      "components": [
+        "React frontend (brutalist design)",
+        "GitHub Pages deployment",
+        "Daily cron job (2 AM SGT)",
+        "Weekly lender check (Monday 3 AM)",
+        "Baseline comparison system",
+        "Telegram notifications"
+      ],
+      "dataFiles": [
+        "/pmal-dashboard/public/data/intel.json",
+        "/pmal-dashboard/public/data/baseline.json"
+      ]
+    },
+    {
+      "id": "kimiclaw-ops",
+      "name": "Kimiclaw Operations Dashboard",
+      "description": "This dashboard - inventory of all KimiClaw-built systems, cron jobs, skills, and capabilities",
+      "url": "https://doubleam-sg.github.io/kimiclaw-ops-dashboard",
+      "repo": "https://github.com/doubleam-sg/kimiclaw-ops-dashboard",
+      "status": "Building",
+      "lastUpdated": "2026-02-25T15:35:00+08:00",
+      "components": [
+        "Static inventory viewer",
+        "File browser",
+        "Learnings viewer"
+      ]
+    }
+  ],
+
+  "cronJobs": [
+    {
+      "id": "62a41715-0f6c-485a-94a7-a1e6a4381139",
+      "name": "pmal-daily-aggregators-brokers",
+      "schedule": "Daily 2:00 AM SGT",
+      "scope": "14 competitors (5 aggregators + 9 brokers)",
+      "status": "Active",
+      "nextRun": "2026-02-26T02:00:00+08:00",
+      "notify": "Telegram"
+    },
+    {
+      "id": "c2e5374e-1962-4a02-8a6a-f39096c26a02",
+      "name": "pmal-weekly-lenders",
+      "schedule": "Monday 3:00 AM SGT",
+      "scope": "20 top licensed moneylenders",
+      "status": "Active", 
+      "nextRun": "2026-03-02T03:00:00+08:00",
+      "notify": "Telegram"
+    }
+  ],
+
+  "channels": [
+    {
+      "name": "Telegram",
+      "status": "Connected",
+      "bot": "@KimiClawBot",
+      "purpose": "PMAL notifications, daily briefings",
+      "configured": true
+    },
+    {
+      "name": "DingTalk",
+      "status": "Not configured",
+      "configured": false
+    },
+    {
+      "name": "Feishu",
+      "status": "Not configured", 
+      "configured": false
+    }
+  ],
+
+  "skills": {
+    "location": "/root/.openclaw/workspace/skills/",
+    "total": 34,
+    "categories": {
+      "Marketing": [
+        "ab-test-setup", "ad-creative", "churn-prevention", "cold-email",
+        "competitor-alternatives", "content-strategy", "copy-editing", "copywriting",
+        "email-sequence", "form-cro", "free-tool-strategy", "launch-strategy",
+        "marketing-ideas", "marketing-psychology", "onboarding-cro", "page-cro",
+        "paid-ads", "paywall-upgrade-cro", "popup-cro", "pricing-strategy",
+        "product-marketing-context", "programmatic-seo", "referral-program", "social-content"
+      ],
+      "SEO": ["ai-seo", "analytics-tracking", "schema-markup", "seo-audit"],
+      "Design": ["frontend-design"],
+      "Utility": ["api-gateway", "channels-setup", "find-skills"],
+      "Workspace": ["self-improving-agent", "gh-cli"]
+    }
+  },
+
+  "learnings": {
+    "location": "/root/.openclaw/workspace/skills/self-improving-agent/.learnings/",
+    "files": [
+      {
+        "name": "LEARNINGS.md",
+        "description": "Accumulated lessons from PMAL project",
+        "entries": 15
+      },
+      {
+        "name": "ERRORS.md", 
+        "description": "Error patterns and fixes",
+        "entries": 8
+      }
+    ]
+  },
+
+  "memory": {
+    "dailyLogs": "/root/.openclaw/workspace/memory/",
+    "longTerm": "/root/.openclaw/workspace/MEMORY.md",
+    "files": [
+      "2026-02-25.md"
+    ]
+  },
+
+  "keyFiles": [
+    {
+      "path": "/root/.openclaw/workspace/IDENTITY.md",
+      "description": "Kimi Claw persona and voice"
+    },
+    {
+      "path": "/root/.openclaw/workspace/SOUL.md",
+      "description": "Behavior guidelines and personality anchors"
+    },
+    {
+      "path": "/root/.openclaw/workspace/USER.md",
+      "description": "User preferences and context"
+    },
+    {
+      "path": "/root/.openclaw/workspace/AGENTS.md",
+      "description": "Workspace conventions and rules"
+    },
+    {
+      "path": "/root/.openclaw/workspace/TOOLS.md",
+      "description": "Local tool configurations"
+    }
+  ],
+
+  "capabilities": {
+    "tools": [
+      "read", "write", "edit", "exec", "process",
+      "web_search", "web_fetch", "browser", "canvas",
+      "nodes", "cron", "message", "gateway",
+      "agents_list", "sessions_list", "sessions_history", "sessions_send",
+      "sessions_spawn", "subagents", "session_status",
+      "kimi_fetch", "kimi_search", "kimi_upload_file",
+      "memory_search", "memory_get"
+    ],
+    "extensions": [
+      "dingtalk-connector",
+      "feishu", 
+      "kimi-claw",
+      "kimi-search"
+    ]
+  },
+
+  "backups": {
+    "method": "Git commits to workspace repo",
+    "lastCommit": "2026-02-25T12:20:00+08:00",
+    "repo": "https://github.com/doubleam-sg/openclaw-workspace",
+    "note": "Run 'git add . && git commit -m [message] && git push' to backup"
+  }
+}

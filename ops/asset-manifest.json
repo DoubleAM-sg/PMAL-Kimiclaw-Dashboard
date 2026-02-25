@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kimiclaw-ops-dashboard/static/css/main.50484735.css",
+    "main.js": "/kimiclaw-ops-dashboard/static/js/main.8353c4aa.js",
+    "index.html": "/kimiclaw-ops-dashboard/index.html",
+    "main.50484735.css.map": "/kimiclaw-ops-dashboard/static/css/main.50484735.css.map",
+    "main.8353c4aa.js.map": "/kimiclaw-ops-dashboard/static/js/main.8353c4aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50484735.css",
+    "static/js/main.8353c4aa.js"
+  ]
+}
