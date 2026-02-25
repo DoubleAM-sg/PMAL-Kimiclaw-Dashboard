@@ -225,11 +225,11 @@
   },
   "competitors": {
     "aggregators": [
-      { "id": "lendela", "name": "Lendela", "url": "https://lendela.sg", "fbPage": "LendelaSingapore", "hasAds": true, "notes": "42 active ads, 'Stop crying' campaign" },
-      { "id": "roshi", "name": "Roshi", "url": "https://roshi.sg", "fbPage": "roshi.sg", "hasAds": false, "notes": "Reviews PMAL partners" },
-      { "id": "moneykinetics", "name": "Money Kinetics", "url": "https://moneykinetics.sg", "fbPage": null, "hasAds": true, "notes": "77 active ads, payday alignment focus" },
-      { "id": "credible", "name": "Credible.sg", "url": "https://credible.com.sg", "fbPage": null, "hasAds": false, "notes": null },
-      { "id": "lendingpot", "name": "Lendingpot", "url": "https://lendingpot.sg", "fbPage": null, "hasAds": false, "notes": "SME marketplace, IFS Capital" }
+      { "id": "lendela", "name": "Lendela", "url": "https://lendela.sg", "fbPage": "LendelaSingapore", "adLibraryQuery": "Lendela", "hasAds": true, "adCount": 42, "notes": "42 active ads, 'Stop crying' campaign" },
+      { "id": "roshi", "name": "Roshi", "url": "https://roshi.sg", "fbPage": "roshi.sg", "adLibraryQuery": "Roshi", "hasAds": false, "notes": "Reviews PMAL partners" },
+      { "id": "moneykinetics", "name": "Money Kinetics", "url": "https://moneykinetics.sg", "fbPage": null, "adLibraryQuery": "Money%20Kinetics", "hasAds": true, "adCount": 77, "notes": "77 active ads, payday alignment focus" },
+      { "id": "credible", "name": "Credible.sg", "url": "https://credible.com.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": null },
+      { "id": "lendingpot", "name": "Lendingpot", "url": "https://lendingpot.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "SME marketplace, IFS Capital" }
     ],
     "brokers": [
       { "id": "loanova", "name": "Loanova", "url": "https://loanova.com.sg", "fbPage": "LoanovaAsia", "adLibraryQuery": "Loanova", "hasAds": true, "adCount": 34, "notes": "Active Facebook ads - 34 campaigns" },
