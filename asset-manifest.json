@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PMAL-Kimiclaw-Dashboard/static/css/main.22e25048.css",
+    "main.js": "/PMAL-Kimiclaw-Dashboard/static/js/main.e272cb1a.js",
+    "index.html": "/PMAL-Kimiclaw-Dashboard/index.html",
+    "main.22e25048.css.map": "/PMAL-Kimiclaw-Dashboard/static/css/main.22e25048.css.map",
+    "main.e272cb1a.js.map": "/PMAL-Kimiclaw-Dashboard/static/js/main.e272cb1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22e25048.css",
+    "static/js/main.e272cb1a.js"
+  ]
+}
