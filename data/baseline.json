@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-26T02:00:00+08:00",
+  "lastUpdated": "2026-02-26T08:55:00+08:00",
   "competitors": {
     "aggregators": {
       "lendela": {
@@ -7,7 +7,19 @@
         "fbPage": "LendelaSingapore",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-26"
+        "lastChecked": "2026-02-26",
+        "blogPosts": [
+          {
+            "title": "Loan Scams Singapore 2026: Red Flags, Prevention Tips",
+            "url": "https://sg.lendela.com/blog/loan-scams-in-singapore-2026-red-flags-prevention-tips-and-how-to-borrow-safely",
+            "date": "2026-02-25"
+          },
+          {
+            "title": "Best Personal Loan Promotions in Singapore (Sept 2025)",
+            "url": "https://sg.lendela.com/blog/best-personal-loan-promotions-in-singapore",
+            "date": "2026-02-25"
+          }
+        ]
       },
       "moneykinetics": {
         "ads": [
@@ -168,7 +180,7 @@
       "competitor": "Lendela"
     },
     {
-      "url": "https://www.reddit.com/r/askSingapore/comments/1ljx4zl/got_a_call_from_lendela_but_idk_how_they_got_my/",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1ljx4zl/got_a_call_from_lendela-but-idk-how-they-got_my/",
       "platform": "reddit",
       "topic": "Privacy concern: Suspicious calls claiming to be from Lendela",
       "date": "2026-02-25",
@@ -188,7 +200,7 @@
       "service": "Facebook Ads Library",
       "competitorsAffected": ["Lendela", "Money Kinetics", "Roshi", "Loanova", "FlexiFunds", "Lendvisor"],
       "reason": "Browser control service unavailable",
-      "timestamp": "2026-02-26T02:00:00+08:00"
+      "timestamp": "2026-02-26T08:55:00+08:00"
     }
   ]
 }

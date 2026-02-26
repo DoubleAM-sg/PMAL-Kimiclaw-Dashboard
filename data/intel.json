@@ -1,8 +1,8 @@
 {
   "date": "2026-02-26",
   "type": "Daily Competitor Check - AGGREGATORS + BROKERS",
-  "generatedAt": "2026-02-26T02:35:00+08:00",
-  "lastUpdated": "2026-02-26T02:35:00+08:00",
+  "generatedAt": "2026-02-26T08:55:00+08:00",
+  "lastUpdated": "2026-02-26T08:55:00+08:00",
   "verifiedBy": "Kimi Claw - Daily Briefing",
   "dataSource": "Website checks, News search, Social monitoring",
   "stats": {
@@ -80,7 +80,7 @@
       "service": "Facebook Ads Library",
       "competitorsAffected": ["Lendela", "Money Kinetics", "Roshi", "Loanova", "FlexiFunds SG", "Lendvisor Singapore"],
       "reason": "Browser control service unavailable - OpenClaw gateway browser not responding",
-      "timestamp": "2026-02-26T02:00:00+08:00",
+      "timestamp": "2026-02-26T08:55:00+08:00",
       "impact": "Unable to verify current Facebook ad status for 6 competitors with FB presence"
     }
   ]
