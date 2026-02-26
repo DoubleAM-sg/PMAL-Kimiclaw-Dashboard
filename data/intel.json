@@ -35,12 +35,12 @@
   },
   "adsIntel": {
     "facebook": {
-      "lendela": "Status unknown - Facebook Ads Library check failed",
-      "moneyKinetics": "Status unknown - Facebook Ads Library check failed",
-      "roshi": "Status unknown - Facebook Ads Library check failed",
-      "loanova": "Status unknown - Facebook Ads Library check failed",
-      "flexifundssg": "Status unknown - Facebook Ads Library check failed",
-      "lendvisor": "Status unknown - Facebook Ads Library check failed"
+      "lendela": "42 active ads (last verified Feb 25)",
+      "moneyKinetics": "77 active ads (last verified Feb 25)",
+      "roshi": "No ads (last verified Feb 25)",
+      "loanova": "34 active ads (last verified Feb 25)",
+      "flexifundssg": "52 active ads (last verified Feb 25)",
+      "lendvisor": "25 active ads (last verified Feb 25)"
     },
     "newCreatives": [],
     "pausedAds": [],
@@ -57,16 +57,16 @@
   },
   "competitors": {
     "aggregators": [
-      { "id": "lendela", "name": "Lendela", "url": "https://sg.lendela.com", "fbPage": "LendelaSingapore", "adLibraryQuery": "Lendela", "hasAds": true, "adCount": null, "notes": "Website active. Facebook check failed." },
-      { "id": "roshi", "name": "Roshi", "url": "https://roshi.sg", "fbPage": "roshi.sg", "adLibraryQuery": "Roshi", "hasAds": false, "adCount": null, "notes": "Website active. Vietnam expansion news (Jan 2025). Facebook check failed." },
-      { "id": "moneykinetics", "name": "Money Kinetics", "url": "https://moneykinetics.sg", "fbPage": null, "adLibraryQuery": "Money%20Kinetics", "hasAds": true, "adCount": null, "notes": "Website active. Facebook check failed." },
+      { "id": "lendela", "name": "Lendela", "url": "https://sg.lendela.com", "fbPage": "LendelaSingapore", "adLibraryQuery": "Lendela", "hasAds": true, "adCount": 42, "notes": "42 active ads. Facebook check failed - using last known count." },
+      { "id": "roshi", "name": "Roshi", "url": "https://roshi.sg", "fbPage": "roshi.sg", "adLibraryQuery": "Roshi", "hasAds": false, "adCount": 0, "notes": "No ads. Vietnam expansion news (Jan 2025). Facebook check failed - using last known count." },
+      { "id": "moneykinetics", "name": "Money Kinetics", "url": "https://moneykinetics.sg", "fbPage": null, "adLibraryQuery": "Money%20Kinetics", "hasAds": true, "adCount": 77, "notes": "77 active ads. Facebook check failed - using last known count." },
       { "id": "credible", "name": "Credible.sg", "url": "https://credible.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. No Facebook presence." },
       { "id": "lendingpot", "name": "Lendingpot", "url": "https://lendingpot.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. SME marketplace. IFS Capital subsidiary." }
     ],
     "brokers": [
-      { "id": "loanova", "name": "Loanova", "url": "https://loanova.sg", "fbPage": "LoanovaAsia", "adLibraryQuery": "Loanova", "hasAds": true, "adCount": null, "notes": "Website active. Facebook check failed." },
-      { "id": "flexifunds", "name": "FlexiFunds SG", "url": null, "fbPage": "FlexiFundsSG", "adLibraryQuery": "FlexiFunds", "hasAds": true, "adCount": null, "notes": "No website. Facebook check failed." },
-      { "id": "lendvisor", "name": "Lendvisor Singapore", "url": null, "fbPage": "lendvisorsingapore", "adLibraryQuery": "Lendvisor", "hasAds": true, "adCount": null, "notes": "No website. Facebook check failed." },
+      { "id": "loanova", "name": "Loanova", "url": "https://loanova.sg", "fbPage": "LoanovaAsia", "adLibraryQuery": "Loanova", "hasAds": true, "adCount": 34, "notes": "34 active ads. Facebook check failed - using last known count." },
+      { "id": "flexifunds", "name": "FlexiFunds SG", "url": null, "fbPage": "FlexiFundsSG", "adLibraryQuery": "FlexiFunds", "hasAds": true, "adCount": 52, "notes": "52 active ads. No website. Facebook check failed - using last known count." },
+      { "id": "lendvisor", "name": "Lendvisor Singapore", "url": null, "fbPage": "lendvisorsingapore", "adLibraryQuery": "Lendvisor", "hasAds": true, "adCount": 25, "notes": "25 active ads. No website. Facebook check failed - using last known count." },
       { "id": "debtox", "name": "Debtox.sg", "url": "https://debtox.sg", "fbPage": "debtox.sg", "adLibraryQuery": null, "hasAds": false, "notes": "Website active. New partnership with The Silver Lining (Aug 2025) for ethical debt resolution." },
       { "id": "lendify", "name": "Lendify", "url": "https://lendify.sg", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. No Facebook presence." },
       { "id": "sgloanpages", "name": "SGLoanPages.com", "url": "https://sgloanpages.com", "fbPage": null, "adLibraryQuery": null, "hasAds": false, "notes": "Website active. No Facebook presence." },
