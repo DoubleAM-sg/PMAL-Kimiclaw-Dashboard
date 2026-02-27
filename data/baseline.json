@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27T06:00:00+08:00",
+  "lastUpdated": "2026-02-28T06:00:00+08:00",
   "competitors": {
     "aggregators": {
       "lendela": {
@@ -7,19 +7,7 @@
         "fbPage": "LendelaSingapore",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
-        "blogPosts": [
-          {
-            "title": "Loan Scams Singapore 2026: Red Flags, Prevention Tips",
-            "url": "https://sg.lendela.com/blog/loan-scams-in-singapore-2026-red-flags-prevention-tips-and-how-to-borrow-safely",
-            "date": "2026-02-25"
-          },
-          {
-            "title": "Best Personal Loan Promotions in Singapore (Sept 2025)",
-            "url": "https://sg.lendela.com/blog/best-personal-loan-promotions-in-singapore",
-            "date": "2026-02-25"
-          }
-        ]
+        "lastChecked": "2026-02-28"
       },
       "moneykinetics": {
         "ads": [
@@ -30,28 +18,28 @@
         "fbPage": "moneykineticssg",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "roshi": {
         "ads": [],
         "fbPage": "roshi.sg",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "credible": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "lendingpot": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       }
     },
     "brokers": {
@@ -60,42 +48,42 @@
         "fbPage": "LoanovaAsia",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "whitefunding": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "flexifundssg": {
         "ads": [],
         "fbPage": "FlexiFundsSG",
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "debtox": {
         "ads": [],
         "fbPage": "debtox.sg",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "lendify": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "loanlink": {
         "ads": [],
         "fbPage": "loanlinksingapore",
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "Facebook presence discovered Jan 2026"
       },
       "sgloanpages": {
@@ -103,21 +91,21 @@
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "lendingcircle": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       },
       "lendvisor": {
         "ads": [],
         "fbPage": "lendvisorsingapore",
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27"
+        "lastChecked": "2026-02-28"
       }
     }
   },
@@ -133,44 +121,8 @@
     "flexifundssg": [],
     "lendvisor": []
   },
-  "blogPosts": [
-    {
-      "url": "https://sg.lendela.com/blog/loan-scams-in-singapore-2026-red-flags-prevention-tips-and-how-to-borrow-safely",
-      "title": "Loan Scams Singapore 2026: Red Flags, Prevention Tips",
-      "date": "2026-02-25",
-      "competitor": "Lendela",
-      "type": "aggregator"
-    },
-    {
-      "url": "https://sg.lendela.com/blog/best-personal-loan-promotions-in-singapore",
-      "title": "Best Personal Loan Promotions in Singapore (Sept 2025)",
-      "date": "2026-02-25",
-      "competitor": "Lendela",
-      "type": "aggregator"
-    }
-  ],
+  "blogPosts": [],
   "news": [
-    {
-      "url": "https://finance.yahoo.com/news/roshi-enters-vietnams-15b-lending-013000622.html",
-      "title": "ROSHI Enters Vietnam's $15B Lending Market with AI-Powered Platform",
-      "source": "Yahoo Finance",
-      "date": "2026-01-20",
-      "competitor": "Roshi"
-    },
-    {
-      "url": "https://china.media-outreach.com/news/singapore/2025/08/29/405463/debtox-collaborates-with-the-silver-lining-to-champion-ethical-and-holistic-debt-resolution/",
-      "title": "Debtox Collaborates with The Silver Lining to Champion Ethical Debt Resolution",
-      "source": "Media Outreach",
-      "date": "2025-08-29",
-      "competitor": "Debtox"
-    },
-    {
-      "url": "https://www.straitstimes.com/singapore/consultants-luring-debtors-to-borrow-more-money-to-exploit-government-bankruptcy-avoidance-scheme",
-      "title": "'Consultants' luring debtors to borrow more to exploit government bankruptcy avoidance scheme",
-      "source": "Straits Times",
-      "date": "2026-02-25",
-      "competitor": "Market-wide"
-    },
     {
       "url": "https://finance.yahoo.com/news/singapore-alternative-lending-business-market-114400903.html",
       "title": "Singapore Alternative Lending Business Market Report 2026",
@@ -180,7 +132,7 @@
     },
     {
       "url": "https://www.straitstimes.com/business/financing-outlook-brightens-for-spore-smes",
-      "title": "Financing outlook brightens for S'pore SMEs with more looking to take business loans to expand",
+      "title": "Financing outlook brightens for S'pore SMEs",
       "source": "Straits Times",
       "date": "2026-02-02",
       "competitor": "Market-wide"
@@ -216,19 +168,19 @@
       "competitor": "Market-wide"
     }
   ],
-  "rates": "Licensed moneylender avg: 3.98% per month. Bank promotions: UOB 1.00% p.a., Standard Chartered 1.08% p.a. (ended 28 Feb 2026). Singapore alternative lending market: US$5.50B by 2026 (15.3% annual growth)",
+  "rates": "Licensed moneylender avg: 3.98% per month. Bank promotions: UOB 1.00% p.a., GXS FlexiLoan 1.08% p.a., Trust Instant Loan 1.56% p.a. (ends 28 Feb 2026). Singapore alternative lending market: US$5.50B by 2026 (15.3% annual growth)",
   "checkFailures": [
     {
       "service": "Facebook Ads Library",
       "competitorsAffected": ["Lendela", "Money Kinetics", "Roshi", "Loanova", "FlexiFunds", "Lendvisor"],
       "reason": "Browser control service unavailable",
-      "timestamp": "2026-02-27T06:00:00+08:00"
+      "timestamp": "2026-02-28T06:00:00+08:00"
     },
     {
       "service": "YouTube Search",
       "competitorsAffected": ["All 14 competitors"],
       "reason": "Browser control service unavailable",
-      "timestamp": "2026-02-27T06:00:00+08:00"
+      "timestamp": "2026-02-28T06:00:00+08:00"
     }
   ]
 }

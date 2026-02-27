@@ -1,40 +1,19 @@
 {
-  "date": "2026-02-27",
+  "date": "2026-02-28",
   "type": "Daily Competitor Check - AGGREGATORS + BROKERS + SOCIAL",
-  "generatedAt": "2026-02-27T06:00:00+08:00",
-  "lastUpdated": "2026-02-27T06:00:00+08:00",
+  "generatedAt": "2026-02-28T06:00:00+08:00",
+  "lastUpdated": "2026-02-28T06:00:00+08:00",
   "verifiedBy": "Kimi Claw - Daily Full Spectrum Check",
   "dataSource": "Website checks, News search, Social monitoring (Reddit, News, Web)",
   "stats": {
     "totalChecked": 14,
     "aggregators": 5,
     "brokers": 9,
-    "checksFailed": 1,
-    "changesDetected": 2
+    "checksFailed": 2,
+    "changesDetected": 0
   },
-  "todayChanges": [
-    {
-      "type": "NEW_FINDING",
-      "competitor": "LoanLink Singapore",
-      "finding": "Facebook page discovered: LoanLink Singapore has active Facebook presence with video content from January 2026",
-      "severity": "MEDIUM",
-      "action": "Update competitor profile - previously marked as no social presence"
-    },
-    {
-      "type": "MARKET_INTEL",
-      "competitor": "Market-wide",
-      "finding": "Singapore alternative lending market expected to grow 15.3% annually, reaching US$5.50 billion by 2026 (Yahoo Finance report, Feb 19 2026)",
-      "severity": "LOW",
-      "action": "Monitor for increased competitive activity"
-    }
-  ],
+  "todayChanges": [],
   "suggestedActions": [
-    {
-      "priority": "MEDIUM",
-      "action": "Update LoanLink Singapore profile - Facebook presence confirmed",
-      "context": "Previously marked as no website/social. Found Facebook page with video content dated Jan 30 2026. May indicate renewed activity.",
-      "relatedChange": "LoanLink Singapore"
-    },
     {
       "priority": "LOW",
       "action": "Monitor Singapore SME lending market growth",
@@ -49,10 +28,10 @@
     }
   ],
   "ratesIntel": {
-    "lastUpdated": "2026-02-27",
+    "lastUpdated": "2026-02-28",
     "moneylenderAvgRate": "3.98% per month",
-    "bankPromotions": "UOB 1.00% p.a., Standard Chartered 1.08% p.a. (ended 28 Feb 2026)",
-    "notableChanges": "Standard Chartered promotion ended yesterday (28 Feb). Monitor for new bank rate promotions."
+    "bankPromotions": "UOB 1.00% p.a., GXS FlexiLoan 1.08% p.a., Trust Instant Loan 1.56% p.a.",
+    "notableChanges": "Standard Chartered promotion ended 28 Feb 2026. Trust Instant Loan promo continues till 28 Feb 2026."
   },
   "adsIntel": {
     "facebook": {
@@ -66,10 +45,10 @@
     },
     "newCreatives": [],
     "pausedAds": [],
-    "notes": "Facebook Ads Library check failed - browser service unavailable. All ad counts preserved from previous check. LoanLink Singapore Facebook discovered via news search."
+    "notes": "Facebook Ads Library check failed - browser service unavailable. All ad counts preserved from previous check (Feb 25)."
   },
   "socialIntel": {
-    "date": "2026-02-27T06:00:00+08:00",
+    "date": "2026-02-28T06:00:00+08:00",
     "youtube": {
       "status": "Check failed - browser unavailable",
       "findings": [],
@@ -148,7 +127,7 @@
       "Singapore alternative lending market growing 15.3% annually",
       "SME financing outlook improving for 2026",
       "Standard Chartered bank promotion ended (28 Feb)",
-      "LoanLink Singapore Facebook presence discovered"
+      "Trust Instant Loan promotion ends 28 Feb 2026"
     ]
   },
   "competitors": {
@@ -162,8 +141,8 @@
         "hasAds": true,
         "adCount": 42,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
-        "notes": "42 active ads (last verified Feb 25). Reddit mentions: 1 legit inquiry, 1 privacy concern about calls. Facebook check failed - using last known count."
+        "lastChecked": "2026-02-28",
+        "notes": "42 active ads (last verified Feb 25). Reddit mentions: 1 legit inquiry, 1 privacy concern about calls. Facebook check failed - using last known count. Website active with loan matching platform."
       },
       {
         "id": "roshi",
@@ -174,8 +153,8 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
-        "notes": "No ads. Vietnam expansion news (Jan 2025). Website active with mortgage and personal loan focus. Facebook check failed - using last known count."
+        "lastChecked": "2026-02-28",
+        "notes": "No ads. Vietnam expansion news (Jan 2025). Website active with mortgage and personal loan focus. Over 10,000 borrowers helped, S$1M+ cashback returned. Facebook check failed - using last known count."
       },
       {
         "id": "moneykinetics",
@@ -186,8 +165,8 @@
         "hasAds": true,
         "adCount": 77,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
-        "notes": "77 active ads (last verified Feb 25). Claims $330M+ loans facilitated annually, 16,000+ borrowers. Facebook check failed - using last known count."
+        "lastChecked": "2026-02-28",
+        "notes": "77 active ads (last verified Feb 25). Claims $330M+ loans facilitated annually, 16,000+ borrowers. Facebook check failed - using last known count. Website active."
       },
       {
         "id": "credible",
@@ -196,9 +175,10 @@
         "fbPage": null,
         "adLibraryQuery": null,
         "hasAds": false,
+        "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
-        "notes": "Website active. No Facebook presence. Positions as '5 star lenders' platform."
+        "lastChecked": "2026-02-28",
+        "notes": "Website active. No Facebook presence. Positions as '5 star lenders' platform with proprietary scoring engine."
       },
       {
         "id": "lendingpot",
@@ -207,9 +187,10 @@
         "fbPage": null,
         "adLibraryQuery": null,
         "hasAds": false,
+        "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
-        "notes": "Website active. SME marketplace. IFS Capital subsidiary (SGX listed)."
+        "lastChecked": "2026-02-28",
+        "notes": "Website active. SME marketplace with 45 lenders. IFS Capital subsidiary (SGX listed). Focus on business loans."
       }
     ],
     "brokers": [
@@ -222,7 +203,7 @@
         "hasAds": true,
         "adCount": 34,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "34 active ads (last verified Feb 25). Website active. Facebook check failed - using last known count."
       },
       {
@@ -234,7 +215,7 @@
         "hasAds": true,
         "adCount": 52,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "52 active ads (last verified Feb 25). No website found. Facebook-only presence. Facebook check failed - using last known count."
       },
       {
@@ -246,7 +227,7 @@
         "hasAds": true,
         "adCount": 25,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "25 active ads (last verified Feb 25). No website found. Facebook-only presence. Facebook check failed - using last known count."
       },
       {
@@ -256,8 +237,9 @@
         "fbPage": "debtox.sg",
         "adLibraryQuery": null,
         "hasAds": false,
+        "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "Website active. Focus on debt resolution/consolidation. Partnership with The Silver Lining (Aug 2025) for ethical debt resolution. Active Instagram presence."
       },
       {
@@ -267,8 +249,9 @@
         "fbPage": null,
         "adLibraryQuery": null,
         "hasAds": false,
+        "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "Website active. No Facebook presence. Positions as connecting borrowers with licensed lenders."
       },
       {
@@ -278,8 +261,9 @@
         "fbPage": null,
         "adLibraryQuery": null,
         "hasAds": false,
+        "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "Website active. Educational content about licensed moneylending regulations. No Facebook presence."
       },
       {
@@ -289,8 +273,9 @@
         "fbPage": null,
         "adLibraryQuery": null,
         "hasAds": false,
+        "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "Website active. Claims 200,000+ happy customers. No Facebook presence."
       },
       {
@@ -300,8 +285,9 @@
         "fbPage": null,
         "adLibraryQuery": null,
         "hasAds": false,
+        "adCount": 0,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "No website or Facebook presence found."
       },
       {
@@ -313,7 +299,7 @@
         "hasAds": false,
         "adCount": null,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-27",
+        "lastChecked": "2026-02-28",
         "notes": "Facebook page discovered! Video content posted Jan 30 2026. Previously marked as no presence. May be different from Brankas/Boost Capital LoanLink."
       }
     ],
@@ -1238,7 +1224,7 @@
         "Lendvisor Singapore"
       ],
       "reason": "Browser control service unavailable - OpenClaw gateway browser not responding",
-      "timestamp": "2026-02-27T06:00:00+08:00",
+      "timestamp": "2026-02-28T06:00:00+08:00",
       "impact": "Unable to verify current Facebook ad status for 6 competitors with FB presence. Using last known counts from Feb 25."
     },
     {
@@ -1247,7 +1233,7 @@
         "All 14 competitors"
       ],
       "reason": "Browser control service unavailable",
-      "timestamp": "2026-02-27T06:00:00+08:00",
+      "timestamp": "2026-02-28T06:00:00+08:00",
       "impact": "Unable to check for new YouTube videos. Using baseline data."
     }
   ]
