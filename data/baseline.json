@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-28T06:00:00+08:00",
+  "lastUpdated": "2026-03-01T06:00:00+08:00",
   "competitors": {
     "aggregators": {
       "lendela": {
@@ -7,7 +7,7 @@
         "fbPage": "LendelaSingapore",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "moneykinetics": {
         "ads": [
@@ -18,28 +18,28 @@
         "fbPage": "moneykineticssg",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "roshi": {
         "ads": [],
         "fbPage": "roshi.sg",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "credible": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "lendingpot": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       }
     },
     "brokers": {
@@ -48,42 +48,42 @@
         "fbPage": "LoanovaAsia",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "whitefunding": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "flexifundssg": {
         "ads": [],
         "fbPage": "FlexiFundsSG",
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "debtox": {
         "ads": [],
         "fbPage": "debtox.sg",
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "lendify": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "loanlink": {
         "ads": [],
         "fbPage": "loanlinksingapore",
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "Facebook presence discovered Jan 2026"
       },
       "sgloanpages": {
@@ -91,21 +91,21 @@
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "lendingcircle": {
         "ads": [],
         "fbPage": null,
         "hasWebsite": true,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       },
       "lendvisor": {
         "ads": [],
         "fbPage": "lendvisorsingapore",
         "hasWebsite": false,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28"
+        "lastChecked": "2026-03-01"
       }
     }
   },
@@ -123,6 +123,13 @@
   },
   "blogPosts": [],
   "news": [
+    {
+      "url": "https://www.fintechfutures.com/fintech-lending/sme-focused-digital-lender-validus-lands-50m-debt-facility-from-hsbc",
+      "title": "SME-focused digital lender Validus lands $50m debt facility from HSBC",
+      "source": "Fintech Futures",
+      "date": "2026-01-27",
+      "competitor": "Market-wide"
+    },
     {
       "url": "https://finance.yahoo.com/news/singapore-alternative-lending-business-market-114400903.html",
       "title": "Singapore Alternative Lending Business Market Report 2026",
@@ -154,33 +161,33 @@
       "competitor": "Lendela"
     },
     {
-      "url": "https://www.reddit.com/r/singaporefi/comments/1qarmi5/looking_for_any_legal_channels_to_obtain_a_loan/",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1nso06a/loan_brokers/",
       "platform": "reddit",
-      "topic": "Looking for legal channels to obtain a loan quickly",
+      "topic": "Loan brokers discussion",
       "date": "2026-02-25",
       "competitor": "Market-wide"
     },
     {
-      "url": "https://www.reddit.com/r/singaporefi/comments/1qfhwvl/free_money_singsaver_scb_cashone_personal_loan/",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1muisuz/saw_this_post_on_fake_reviews_and_shady_loan/",
       "platform": "reddit",
-      "topic": "Free money Singsaver SCB Cashone Personal Loan promotion",
+      "topic": "Fake reviews and shady loan brokers in SG",
       "date": "2026-02-25",
       "competitor": "Market-wide"
     }
   ],
-  "rates": "Licensed moneylender avg: 3.98% per month. Bank promotions: UOB 1.00% p.a., GXS FlexiLoan 1.08% p.a., Trust Instant Loan 1.56% p.a. (ends 28 Feb 2026). Singapore alternative lending market: US$5.50B by 2026 (15.3% annual growth)",
+  "rates": "Licensed moneylender avg: 3.98% per month. Bank promotions: UOB 1.00% p.a., GXS FlexiLoan 1.08% p.a., Trust Instant Loan 1.56% p.a. (ended 28 Feb 2026). Validus secured $50M HSBC debt facility. Singapore alternative lending market: US$5.50B by 2026 (15.3% annual growth)",
   "checkFailures": [
     {
       "service": "Facebook Ads Library",
       "competitorsAffected": ["Lendela", "Money Kinetics", "Roshi", "Loanova", "FlexiFunds", "Lendvisor"],
       "reason": "Browser control service unavailable",
-      "timestamp": "2026-02-28T06:00:00+08:00"
+      "timestamp": "2026-03-01T06:00:00+08:00"
     },
     {
-      "service": "YouTube Search",
+      "service": "YouTube Direct Check",
       "competitorsAffected": ["All 14 competitors"],
-      "reason": "Browser control service unavailable",
-      "timestamp": "2026-02-28T06:00:00+08:00"
+      "reason": "Browser control service unavailable - used search-based checks instead",
+      "timestamp": "2026-03-01T06:00:00+08:00"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "date": "2026-02-28",
+  "date": "2026-03-01",
   "type": "Daily Competitor Check - AGGREGATORS + BROKERS + SOCIAL",
-  "generatedAt": "2026-02-28T06:00:00+08:00",
-  "lastUpdated": "2026-02-28T06:00:00+08:00",
+  "generatedAt": "2026-03-01T06:00:00+08:00",
+  "lastUpdated": "2026-03-01T06:00:00+08:00",
   "verifiedBy": "Kimi Claw - Daily Full Spectrum Check",
   "dataSource": "Website checks, News search, Social monitoring (Reddit, News, Web)",
   "stats": {
@@ -17,21 +17,21 @@
     {
       "priority": "LOW",
       "action": "Monitor Singapore SME lending market growth",
-      "context": "Alternative lending market growing 15.3% annually. Straits Times reports SMEs anticipate better borrowing terms in 2026 due to declining interest rates.",
+      "context": "Alternative lending market growing 15.3% annually. Validus secured $50M debt facility from HSBC (Jan 2026).",
       "relatedChange": null
     },
     {
       "priority": "LOW",
       "action": "Continue monitoring Debtox partnership developments",
-      "context": "Debtox x The Silver Lining partnership continues to be referenced in news. No new developments since Aug 2025 announcement.",
+      "context": "Debtox x The Silver Lining partnership continues to be referenced. No new developments.",
       "relatedChange": null
     }
   ],
   "ratesIntel": {
-    "lastUpdated": "2026-02-28",
+    "lastUpdated": "2026-03-01",
     "moneylenderAvgRate": "3.98% per month",
     "bankPromotions": "UOB 1.00% p.a., GXS FlexiLoan 1.08% p.a., Trust Instant Loan 1.56% p.a.",
-    "notableChanges": "Standard Chartered promotion ended 28 Feb 2026. Trust Instant Loan promo continues till 28 Feb 2026."
+    "notableChanges": "Standard Chartered promotion ended 28 Feb 2026. Trust Instant Loan promo ended 28 Feb 2026."
   },
   "adsIntel": {
     "facebook": {
@@ -48,11 +48,33 @@
     "notes": "Facebook Ads Library check failed - browser service unavailable. All ad counts preserved from previous check (Feb 25)."
   },
   "socialIntel": {
-    "date": "2026-02-28T06:00:00+08:00",
+    "date": "2026-03-01T06:00:00+08:00",
     "youtube": {
-      "status": "Check failed - browser unavailable",
-      "findings": [],
-      "notes": "Using baseline data - no new video content detected via search"
+      "status": "Checked via search",
+      "findings": [
+        {
+          "competitor": "Lendela",
+          "channel": "Lendela Singapore",
+          "status": "Active channel with playlists for 2020-2024",
+          "latestContent": "2024 playlist: 'More answers, more options' series",
+          "notes": "No new videos detected since last check"
+        },
+        {
+          "competitor": "Roshi",
+          "channel": "ROSHI Singapore",
+          "status": "Active with shorts and long-form",
+          "latestContent": "Shorts: 'Trust the original!', 'Don't be a fool!'",
+          "notes": "Active YouTube Shorts presence with #roshi #singapore #lending hashtags"
+        },
+        {
+          "competitor": "Money Kinetics",
+          "channel": "Facebook Video",
+          "status": "Video content on Facebook",
+          "latestContent": "'Compare 50+ Licensed Lenders in Singapore' video",
+          "notes": "No dedicated YouTube channel found - Facebook video presence only"
+        }
+      ],
+      "notes": "YouTube checks via search - no new video content detected for competitors"
     },
     "reddit": {
       "status": "Checked",
@@ -64,7 +86,7 @@
           "date": "2026-02-25",
           "competitor": "Lendela",
           "sentiment": "Neutral/Positive",
-          "notes": "User inquiry about legitimacy. Comments generally positive."
+          "notes": "User inquiry about legitimacy. Comments generally positive. Chinese translation also available."
         },
         {
           "platform": "reddit",
@@ -77,8 +99,8 @@
         },
         {
           "platform": "reddit",
-          "topic": "Looking for legal channels to obtain a loan quickly",
-          "url": "https://www.reddit.com/r/singaporefi/comments/1qarmi5/looking_for_any_legal_channels_to_obtain_a_loan/",
+          "topic": "Personal Loan Help",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1nso4fi/personal_loan_help/",
           "date": "2026-02-25",
           "competitor": "Market-wide",
           "sentiment": "Neutral",
@@ -86,12 +108,21 @@
         },
         {
           "platform": "reddit",
-          "topic": "Free money Singsaver SCB Cashone Personal Loan promotion",
-          "url": "https://www.reddit.com/r/singaporefi/comments/1qfhwvl/free_money_singsaver_scb_cashone_personal_loan/",
+          "topic": "Loan brokers discussion",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1nso06a/loan_brokers/",
           "date": "2026-02-25",
           "competitor": "Market-wide",
           "sentiment": "Neutral",
-          "notes": "Discussion about bank loan promotions. Users analyzing net positive/negative after fees."
+          "notes": "Discussion about loan brokers as one-stop shop for comparing rates"
+        },
+        {
+          "platform": "reddit",
+          "topic": "Fake reviews and shady loan brokers in SG",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1muisuz/saw_this_post_on_fake_reviews_and_shady_loan/",
+          "date": "2026-02-25",
+          "competitor": "Market-wide",
+          "sentiment": "Negative",
+          "notes": "Discussion about fake reviews by brokers, fake claims of being 'supported by' chambers"
         }
       ]
     },
@@ -103,6 +134,13 @@
     "news": {
       "status": "Checked",
       "findings": [
+        {
+          "title": "SME-focused digital lender Validus lands $50m debt facility from HSBC",
+          "source": "Fintech Futures",
+          "date": "2026-01-27",
+          "url": "https://www.fintechfutures.com/fintech-lending/sme-focused-digital-lender-validus-lands-50m-debt-facility-from-hsbc",
+          "summary": "Validus secured $50 million debt facility from HSBC under ASEAN Growth Fund strategy"
+        },
         {
           "title": "Singapore Alternative Lending Business Market Report 2026",
           "source": "Yahoo Finance",
@@ -126,8 +164,10 @@
       "One privacy concern raised on Reddit about Lendela calls",
       "Singapore alternative lending market growing 15.3% annually",
       "SME financing outlook improving for 2026",
-      "Standard Chartered bank promotion ended (28 Feb)",
-      "Trust Instant Loan promotion ends 28 Feb 2026"
+      "Validus secured $50M HSBC debt facility",
+      "Standard Chartered bank promotion ended 28 Feb 2026",
+      "Trust Instant Loan promotion ended 28 Feb 2026",
+      "Reddit discussions about fake reviews/shady loan brokers"
     ]
   },
   "competitors": {
@@ -141,8 +181,8 @@
         "hasAds": true,
         "adCount": 42,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
-        "notes": "42 active ads (last verified Feb 25). Reddit mentions: 1 legit inquiry, 1 privacy concern about calls. Facebook check failed - using last known count. Website active with loan matching platform."
+        "lastChecked": "2026-03-01",
+        "notes": "42 active ads (last verified Feb 25). Reddit mentions: 1 legit inquiry, 1 privacy concern about calls. Facebook check failed - using last known count. Website active with loan matching platform. YouTube channel active with 2024 content."
       },
       {
         "id": "roshi",
@@ -153,8 +193,8 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
-        "notes": "No ads. Vietnam expansion news (Jan 2025). Website active with mortgage and personal loan focus. Over 10,000 borrowers helped, S$1M+ cashback returned. Facebook check failed - using last known count."
+        "lastChecked": "2026-03-01",
+        "notes": "No ads. Vietnam expansion news (Jan 2025). Website active with mortgage and personal loan focus. Over 10,000 borrowers helped, S$1M+ cashback returned. Facebook check failed - using last known count. Active YouTube Shorts presence."
       },
       {
         "id": "moneykinetics",
@@ -165,8 +205,8 @@
         "hasAds": true,
         "adCount": 77,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
-        "notes": "77 active ads (last verified Feb 25). Claims $330M+ loans facilitated annually, 16,000+ borrowers. Facebook check failed - using last known count. Website active."
+        "lastChecked": "2026-03-01",
+        "notes": "77 active ads (last verified Feb 25). Claims $188M+ loans facilitated annually, 7,520+ borrowers served. Facebook check failed - using last known count. Website active. Video content on Facebook (not YouTube)."
       },
       {
         "id": "credible",
@@ -177,8 +217,8 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
-        "notes": "Website active. No Facebook presence. Positions as '5 star lenders' platform with proprietary scoring engine."
+        "lastChecked": "2026-03-01",
+        "notes": "Website active. No Facebook presence. Positions as '5 star lenders' platform with proprietary scoring engine. Some placeholder text still on site ('Click edit button to change this text')."
       },
       {
         "id": "lendingpot",
@@ -189,7 +229,7 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "Website active. SME marketplace with 45 lenders. IFS Capital subsidiary (SGX listed). Focus on business loans."
       }
     ],
@@ -203,7 +243,7 @@
         "hasAds": true,
         "adCount": 34,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "34 active ads (last verified Feb 25). Website active. Facebook check failed - using last known count."
       },
       {
@@ -215,7 +255,7 @@
         "hasAds": true,
         "adCount": 52,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "52 active ads (last verified Feb 25). No website found. Facebook-only presence. Facebook check failed - using last known count."
       },
       {
@@ -227,7 +267,7 @@
         "hasAds": true,
         "adCount": 25,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "25 active ads (last verified Feb 25). No website found. Facebook-only presence. Facebook check failed - using last known count."
       },
       {
@@ -239,8 +279,8 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
-        "notes": "Website active. Focus on debt resolution/consolidation. Partnership with The Silver Lining (Aug 2025) for ethical debt resolution. Active Instagram presence."
+        "lastChecked": "2026-03-01",
+        "notes": "Website active. Focus on debt resolution/consolidation. Partnership with The Silver Lining (Aug 2025) for ethical debt resolution. Active Instagram presence. Uses Reddit case studies in Facebook videos."
       },
       {
         "id": "lendify",
@@ -251,7 +291,7 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "Website active. No Facebook presence. Positions as connecting borrowers with licensed lenders."
       },
       {
@@ -263,7 +303,7 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "Website active. Educational content about licensed moneylending regulations. No Facebook presence."
       },
       {
@@ -275,7 +315,7 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "active",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "Website active. Claims 200,000+ happy customers. No Facebook presence."
       },
       {
@@ -287,7 +327,7 @@
         "hasAds": false,
         "adCount": 0,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28",
+        "lastChecked": "2026-03-01",
         "notes": "No website or Facebook presence found."
       },
       {
@@ -299,8 +339,8 @@
         "hasAds": false,
         "adCount": null,
         "websiteStatus": "no_website",
-        "lastChecked": "2026-02-28",
-        "notes": "Facebook page discovered! Video content posted Jan 30 2026. Previously marked as no presence. May be different from Brankas/Boost Capital LoanLink."
+        "lastChecked": "2026-03-01",
+        "notes": "Facebook page discovered! Video content posted Jan 2026. Previously marked as no presence. May be different from Brankas/Boost Capital LoanLink."
       }
     ],
     "lenders": [
@@ -1081,7 +1121,7 @@
         "name": "Soon Seng Credit",
         "url": "https://soonsengml.com",
         "altUrls": [],
-        "claim": null
+        "claim": "claim": null
       },
       {
         "id": "sucredit",
@@ -1220,21 +1260,21 @@
         "Money Kinetics",
         "Roshi",
         "Loanova",
-        "FlexiFunds SG",
-        "Lendvisor Singapore"
+        "FlexiFunds",
+        "Lendvisor"
       ],
       "reason": "Browser control service unavailable - OpenClaw gateway browser not responding",
-      "timestamp": "2026-02-28T06:00:00+08:00",
+      "timestamp": "2026-03-01T06:00:00+08:00",
       "impact": "Unable to verify current Facebook ad status for 6 competitors with FB presence. Using last known counts from Feb 25."
     },
     {
-      "service": "YouTube Search",
+      "service": "YouTube Direct Check",
       "competitorsAffected": [
         "All 14 competitors"
       ],
-      "reason": "Browser control service unavailable",
-      "timestamp": "2026-02-28T06:00:00+08:00",
-      "impact": "Unable to check for new YouTube videos. Using baseline data."
+      "reason": "Browser control service unavailable - used search-based checks instead",
+      "timestamp": "2026-03-01T06:00:00+08:00",
+      "impact": "YouTube checks performed via kimi_search instead of direct browser navigation. Limited video detail available."
     }
   ]
 }
